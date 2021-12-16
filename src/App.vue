@@ -7,11 +7,17 @@
  * @FilePath: \lss.github.io\tiezhu\src\App.vue
 -->
 <script setup>
+	import { ref } from 'vue'
 
+	let count = ref(0)
+	let count2 = $ref(1)
 </script>
 
 <template>
 	<h1>让俺来试一试</h1>
+	<div>
+		<p>{{ count2 }}</p>
+	</div>
 </template>
 
 <style>
