@@ -18,6 +18,7 @@
 	<div>
 		<p>{{ count2 }}</p>
 	</div>
+	<router-view></router-view>
 </template>
 
 <style>
