@@ -1,1 +1,1 @@
-# https://6shuai.github.io/blog/
+# https://6shuai.github.io/blog/dist
