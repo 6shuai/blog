@@ -20,7 +20,7 @@
     </div>
 </template>
 
-<style scoped>
+<style lang="less" scoped>
     .main {
         width: 100%;
         min-height: 100%;
