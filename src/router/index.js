@@ -2,7 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [
     {
-        path: '/tiezhu',
+        path: '/',
         name: 'Tiezhu',
         component: () => import('@/views/tiezhu.vue')
     },
