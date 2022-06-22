@@ -28,7 +28,7 @@
         text-align: center;
         overflow: hidden;
         font-size: 14px;
-        background: rgba(164, 231, 192, 1);
+        background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
         display: flex;
         justify-content: center;
         align-items: center;
