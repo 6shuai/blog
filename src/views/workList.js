@@ -118,6 +118,16 @@ export const workList = [
         ]
     },
     {
+        "title": "极限买手游戏管理后台",
+        "desc": "极限买手游戏配置管理后台",
+        "stack": ["vue3", "element-plus", "scss", "vite"],
+        "images": [
+            new URL("../assets/jxms-admin/1.png", import.meta.url).href,
+            new URL("../assets/jxms-admin/2.png", import.meta.url).href,
+            new URL("../assets/jxms-admin/3.png", import.meta.url).href
+        ]
+    },
+    {
         "title": "个人中心",
         "desc": "微信公众号网页",
         "stack": ["vue3", "vite", "vant", "less"],

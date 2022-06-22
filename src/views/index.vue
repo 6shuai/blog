@@ -6,28 +6,30 @@
     <div class="main-wrap">
         <div class="content">
             <el-scrollbar>
-                <div class="work-list">
+                <el-row class="work-list">
+                    <el-col :xs="24" :sm="12" :lg="8" v-for="(item, index) in workList" :key="index">
+                        <el-card class="item">
+                            <div class="work-img">
+                                <el-image fit="cover" :src="item.images[0]" :preview-src-list="item.images" :preview-teleported="true"></el-image>
+                            </div>
+                            <div class="detail">
+                                <p class="title">{{ item.title }}
+                                    <a 
+                                        v-if="item.link" 
+                                        :href="item.link" 
+                                        class="link"
+                                        target="__blank"
+                                    ></a>
+                                </p>
+                                <p class="desc">{{ item.desc }}</p>
+                                <p class="stack">
+                                    <el-tag size="small" v-for="(t, tIndex) in item.stack" :key="tIndex">{{ t }}</el-tag>
+                                </p>
+                            </div>
+                        </el-card>
+                    </el-col>
 
-                    <el-card class="item" v-for="(item, index) in workList" :key="index">
-                        <div class="work-img">
-                            <el-image fit="cover" :src="item.images[0]" :preview-src-list="item.images" :preview-teleported="true"></el-image>
-                        </div>
-                        <div class="detail">
-                            <p class="title">{{ item.title }}
-                                <a 
-                                    v-if="item.link" 
-                                    :href="item.link" 
-                                    class="link"
-                                    target="__blank"
-                                ></a>
-                            </p>
-                            <p class="desc">{{ item.desc }}</p>
-                            <p class="stack">
-                                <el-tag size="small" v-for="(t, tIndex) in item.stack" :key="tIndex">{{ t }}</el-tag>
-                            </p>
-                        </div>
-                    </el-card>
-                </div>
+                </el-row>
             </el-scrollbar>
         </div>
     </div> 
@@ -41,7 +43,7 @@
         overflow: hidden;
 
         .content{
-            width: 1200px;
+            max-width: 1200px;
             margin: 20px auto;
             background: #28df991f;
             border-radius: 12px;
@@ -55,11 +57,8 @@
             }
 
             .work-list{
-                display: flex;
-                flex-wrap: wrap;
 
                 .item{
-                    width: 358px;
                     margin: 20px;
                     cursor: pointer;
     
