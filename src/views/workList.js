@@ -1,52 +1,5 @@
 export const workList = [
     {
-        "title": "好律师",
-        "desc": "律师在线法律咨询平台",
-        "stack": ["js", "jquery", "融云即时通讯"],
-        "link": "https://www.haolvshi.com.cn/",
-        "images": [
-            new URL("../assets/haolvshi/1.png", import.meta.url).href,
-            new URL("../assets/haolvshi/2.png", import.meta.url).href
-        ]
-    },
-    {
-        "title": "叮咚营销宝",
-        "desc": "网络推广、新媒体营销等网络营销资源和服务担保平台",
-        "stack": ["vue2", "nuxt2", "vuex", "less"],
-        "images": [
-            new URL("../assets/ddyxb/1.png", import.meta.url).href
-        ]
-    },
-    {
-        "title": "鲁班客服",
-        "desc": "全场景智能客服系统平台",
-        "stack": ["js", "jquery", "websocket"],
-        "link": "https://cdn.lubankf.com/chat_link/standalone.html?accessId=FLmuOW-2BmPwD-FkAq2cfZ2zuxj-arA3",
-        "images": [
-            new URL("../assets/lbkf1/1.png", import.meta.url).href,
-            new URL("../assets/lbkf1/2.png", import.meta.url).href
-        ]
-    },
-    {
-        "title": "鲁班客服后台管理",
-        "desc": "鲁班客服后台管理客服管理",
-        "stack": ["vue2", "vuex", "less", "websocket"],
-        "images": [
-            new URL("../assets/lbkf2/1.png", import.meta.url).href,
-            new URL("../assets/lbkf2/2.png", import.meta.url).href
-        ]
-    },
-    {
-        "title": "鲁班客服小程序",
-        "desc": "鲁班客服微信小程序",
-        "stack": ["小程序", "websocket"],
-        "images": [
-            new URL("../assets/lbkf3/1.png", import.meta.url).href,
-            new URL("../assets/lbkf3/2.png", import.meta.url).href,
-            new URL("../assets/lbkf3/3.png", import.meta.url).href
-        ]
-    },
-    {
         "title": "接口管理",
         "desc": "公司项目接口管理平台",
         "stack": ["vue3", "element-plus", "vite", "scss"],
@@ -61,7 +14,11 @@ export const workList = [
         "desc": "商场大屏广告播放,离线播放,定时播放,轮播,插播,直播,游戏",
         "stack": ["vue2", "nwjs", "nodejs", "video.js", "websocket"],
         "images": [
-            new URL("../assets/bk/1.png", import.meta.url).href
+            new URL("../assets/bk/1.png", import.meta.url).href,
+            new URL("../assets/bk/2.png", import.meta.url).href,
+            new URL("../assets/bk/3.png", import.meta.url).href,
+            new URL("../assets/bk/4.png", import.meta.url).href,
+            new URL("../assets/bk/5.png", import.meta.url).href
         ]
     },
     {
@@ -135,6 +92,53 @@ export const workList = [
             new URL("../assets/gzh/1.png", import.meta.url).href,
             new URL("../assets/gzh/2.png", import.meta.url).href,
             new URL("../assets/gzh/3.png", import.meta.url).href
+        ]
+    },
+    {
+        "title": "好律师",
+        "desc": "律师在线法律咨询平台",
+        "stack": ["js", "jquery", "融云即时通讯"],
+        "link": "https://www.haolvshi.com.cn/",
+        "images": [
+            new URL("../assets/haolvshi/1.png", import.meta.url).href,
+            new URL("../assets/haolvshi/2.png", import.meta.url).href
+        ]
+    },
+    {
+        "title": "叮咚营销宝",
+        "desc": "网络推广、新媒体营销等网络营销资源和服务担保平台",
+        "stack": ["vue2", "nuxt2", "vuex", "less"],
+        "images": [
+            new URL("../assets/ddyxb/1.png", import.meta.url).href
+        ]
+    },
+    {
+        "title": "鲁班客服",
+        "desc": "全场景智能客服系统平台",
+        "stack": ["js", "jquery", "websocket"],
+        "link": "https://cdn.lubankf.com/chat_link/standalone.html?accessId=FLmuOW-2BmPwD-FkAq2cfZ2zuxj-arA3",
+        "images": [
+            new URL("../assets/lbkf1/1.png", import.meta.url).href,
+            new URL("../assets/lbkf1/2.png", import.meta.url).href
+        ]
+    },
+    {
+        "title": "鲁班客服后台管理",
+        "desc": "鲁班客服后台管理客服管理",
+        "stack": ["vue2", "vuex", "less", "websocket"],
+        "images": [
+            new URL("../assets/lbkf2/1.png", import.meta.url).href,
+            new URL("../assets/lbkf2/2.png", import.meta.url).href
+        ]
+    },
+    {
+        "title": "鲁班客服小程序",
+        "desc": "鲁班客服微信小程序",
+        "stack": ["小程序", "websocket"],
+        "images": [
+            new URL("../assets/lbkf3/1.png", import.meta.url).href,
+            new URL("../assets/lbkf3/2.png", import.meta.url).href,
+            new URL("../assets/lbkf3/3.png", import.meta.url).href
         ]
     }
 ]
